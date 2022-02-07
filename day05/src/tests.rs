@@ -1,6 +1,6 @@
 use std::{fs, str::FromStr};
 
-use super::{parse_input, solve_part_one, solve_part_two, Point, Vents};
+use crate::{parse_input, solve_part_one, solve_part_two, Point, Vents};
 
 #[test]
 fn solve_part_two_small_input() {
